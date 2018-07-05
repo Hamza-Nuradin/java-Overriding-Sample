@@ -22,11 +22,13 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
-
+    ///  you can put more specific name in your methods
     public void read(){
         Log.d("person", "this is person can read without parameter.");
     }
+
 ///awesomeeee
+    /// you should have a id variable in your class to
     public void read(int personId){
         Log.d("student", "this is overloading example with person id. ");
     }
